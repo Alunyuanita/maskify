@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="{{ url_for('static', filename='images/mask.png') }}" alt="Logo" class="logo">
+            <h1>Maskify</h1>
+            <p>Hello, we are Maskify! We aim to assist you in protecting sensitive information. Maskify is built to conceal crucial details, such as identification numbers (NIK), email addresses, URL links, and to remove swearing or profanity words from
+                your text. Rest assured, your privacy is our priority. All sensitive data that you input into Maskify is not retained by our system, allowing you to use the app nonchalantly and confidently.</p>
+            <a href="/masking" class="button">CONTINUE</a>
+        </div>
+    </div>
+</body>
+
+</html>
